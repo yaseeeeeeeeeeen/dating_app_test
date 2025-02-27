@@ -26,8 +26,8 @@ This application was developed as part of an interview task for the Flutter Deve
 
 - New matches and compliments are **randomized instead of being static** (like in Figma UI design).
 - Used **math operations and Cubit** to randomly assign properties like:
-  - **New Matches:** Only **50% of users** are marked as new matches.
-  - **Compliments:** Only **25% of users** are marked as new.
+  - **New Matches:** Only **4/1% of users** are marked as new matches.
+  - **Compliments:** Only **3/1% of users** are marked as new.
   - **Verified Users:** Some users are randomly assigned a **verified badge**.
 
 ### 5. **Font Localization**
