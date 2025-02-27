@@ -6,9 +6,6 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text("Chat")),
-      body: Expanded(child: ChatTabs()),
-    );
+    return Scaffold(appBar: AppBar(title: Text("Chat")), body: ChatTabs());
   }
 }

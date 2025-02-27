@@ -1,4 +1,5 @@
-import 'package:dating_app_test/domain/entity/compliment_user.dart';
+
+import 'package:dating_app_test/presentation/cubit/compliment_chat_cubit.dart';
 import 'package:dating_app_test/presentation/widgets/compliment_bottomsheet.dart';
 import 'package:flutter/material.dart';
 

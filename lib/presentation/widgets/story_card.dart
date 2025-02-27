@@ -1,4 +1,4 @@
-import 'package:dating_app_test/presentation/screens/cubit/story_cubit.dart';
+import 'package:dating_app_test/presentation/cubit/story_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

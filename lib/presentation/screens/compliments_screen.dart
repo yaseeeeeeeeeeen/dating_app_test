@@ -1,5 +1,5 @@
-import 'package:dating_app_test/presentation/screens/cubit/compliment_chat_cubit.dart'
-    show ComplimentsCubit, ComplimentsState;
+import 'package:dating_app_test/presentation/cubit/compliment_chat_cubit.dart'
+    show ComplimentState, ComplimentsCubit, ComplimentsState;
 import 'package:dating_app_test/presentation/widgets/compliment_tile.dart';
 import 'package:dating_app_test/presentation/widgets/story_card.dart';
 import 'package:flutter/material.dart';
@@ -13,12 +13,12 @@ class ComplimentsScreen extends StatelessWidget {
         StoryCardList(),
         SizedBox(height: 10),
         Expanded(
-          child: BlocBuilder<ComplimentsCubit, ComplimentsState>(
+          child: BlocBuilder<ComplimentsCubit, ComplimentState>(
             builder: (context, state) {
               return ListView.builder(
-                itemCount: state.compliments.length,
+                itemCount: state.users.length,
                 itemBuilder: (context, index) {
-                  return ComplimentTile(user: state.compliments[index]);
+                  return ComplimentTile(user: state.users[index]);
                 },
               );
             },

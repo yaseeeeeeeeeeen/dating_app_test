@@ -1,4 +1,4 @@
-import 'package:dating_app_test/presentation/screens/cubit/chat_cubit.dart';
+import 'package:dating_app_test/presentation/cubit/chat_cubit.dart';
 import 'package:dating_app_test/presentation/widgets/filter_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

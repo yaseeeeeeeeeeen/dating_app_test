@@ -1,5 +1,6 @@
+import 'package:dating_app_test/presentation/cubit/chat_cubit.dart';
 import 'package:flutter/material.dart';
-import '../../domain/entity/chat_user.dart';
+
 
 class ChatTile extends StatelessWidget {
   final ChatUser user;
