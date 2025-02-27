@@ -1,3 +1,4 @@
+import 'package:dating_app_test/presentation/widgets/tab_bar.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -5,11 +6,9 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container
-    (
-      decoration: BoxDecoration(
-        color: Colors.deepOrange
-      ),
+    return Scaffold(
+      appBar: AppBar(title: Text("Chat")),
+      body: Expanded(child: ChatTabs()),
     );
   }
 }
