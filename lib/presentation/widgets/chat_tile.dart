@@ -1,7 +1,6 @@
 import 'package:dating_app_test/presentation/cubit/chat_cubit.dart';
 import 'package:flutter/material.dart';
 
-
 class ChatTile extends StatelessWidget {
   final ChatUser user;
 
@@ -53,6 +52,26 @@ class ChatTile extends StatelessWidget {
           if (user.hasUnreadMessage)
             Icon(Icons.circle, color: Colors.orange, size: 10),
         ],
+      ),
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => MockPage()),
+        );
+      },
+    );
+  }
+}
+
+class MockPage extends StatelessWidget {
+  const MockPage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Text(
+        "Chat screen",
+        style: Theme.of(context).textTheme.displayLarge,
       ),
     );
   }
