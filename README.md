@@ -41,6 +41,30 @@ This application was developed as part of an interview task for the Flutter Deve
 - **Dart** (backend logic)
 - **Randomizer API** (to fetch user data dynamically)
 
+## Running Instructions
+
+Follow these steps to run the application locally:
+
+1. **Clone the Repository:**
+   ```sh
+   git clone <repository-url>
+   cd <project-folder>
+   ```
+
+2. **Install Dependencies:**
+   ```sh
+   flutter pub get
+   ```
+
+3. **Run the Application:**
+   ```sh
+   flutter run
+   ```
+
+   - If running on an emulator, ensure the emulator is properly set up and running.
+   - If running on a physical device, enable **Developer Mode** and **USB Debugging**.
+
+
 ## Assignment Details
 
 This project was built as part of an interview task received from **M2B Ventures**.&#x20;
